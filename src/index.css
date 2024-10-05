@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(./fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+p {
+  font-family: sans-serif;
+  text-align: justify;
+}
+
+#root {
+  width: 100%;
+  position: relative;
+}
+
+body {
+  width: 100%;
+  position: relative;
+}
+
+.hero-imgs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.fldev {
+  position: absolute;
+  top: 100px;
+  right: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fldev p {
+  font-size: 5rem;
+  font-family: roboto;
+  font-weight: 900;
+  color: #151f21;
+}
+
+.itsme {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itsme p {
+  font-size: 2rem;
+  font-family: roboto;
+  font-weight: 600;
+  color: #151f21;
+}
+
+.cont-one {
+  height: auto;
+  background-color: #151f21;
+  overflow-x: hidden;
+}
+
+.moon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(
+    500px 500px,
+    white 10%,
+    #98d1f1 11%,
+    #68b6d4
+  );
+}
+
+.headings {
+  color: aliceblue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.headings p {
+  font-size: 5rem;
+  font-family: roboto;
+}
+
+.imgcont:hover .primg:not(:hover) {
+  filter: grayscale(1);
+  scale: 0.99;
+}
