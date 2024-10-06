@@ -1,14 +1,16 @@
 import { motion, MotionValue, useSpring, useTransform } from "framer-motion";
 
 interface props {
-  arr: string[];
-  str: string;
+  arr: {
+    url: string;
+    str: string;
+  }[];
   scrollYProgress: MotionValue;
   del: number;
 }
 
 const Imgline = (props: props): JSX.Element => {
-  const { arr, str, scrollYProgress, del } = props;
+  const { arr, scrollYProgress, del } = props;
   const smoothprogress = useSpring(scrollYProgress, {
     mass: 0.1,
     stiffness: 100,
@@ -28,10 +30,10 @@ const Imgline = (props: props): JSX.Element => {
     >
       {arr.map((el, i): JSX.Element => {
         return (
-          <a key={i} href={str} target="blank">
+          <a key={i} href={el.str} target="blank">
             <img
               className="primg"
-              src={el}
+              src={el.url}
               alt=""
               style={{
                 height: 280,

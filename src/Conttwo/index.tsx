@@ -84,8 +84,8 @@ const Conttwo = () => {
             </Fadeup>
             <Fadeup>
               <p style={{ width: 500, fontSize: "2rem" }}>
-                An amazing website with a gorgeous landing page and a seamless
-                user experience
+                Create an attractive mobile application with responsive design
+                and effortless navigation.
               </p>
             </Fadeup>
           </div>
@@ -130,7 +130,9 @@ const Conttwo = () => {
             }}
           >
             <Fadeup>
-              <p style={{ width: 500, fontSize: "3rem" }}>HELP YOU RELAX</p>
+              <p style={{ width: 500, fontSize: "3rem" }}>
+                USER-FRIENDLY EXPIRIENCE
+              </p>
             </Fadeup>
             <Fadeup>
               <p style={{ width: 500, fontSize: "2rem" }}>
