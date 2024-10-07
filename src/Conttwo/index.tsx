@@ -26,7 +26,7 @@ const Conttwo = () => {
           alignItems: "center",
         }}
       >
-        <Headings str="I CAN BUILD YOU" />
+        <Headings str="I CAN BUILD" />
       </div>
       <div
         style={{

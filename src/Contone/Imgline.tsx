@@ -35,6 +35,7 @@ const Imgline = (props: props): JSX.Element => {
               className="primg"
               src={el.url}
               alt=""
+              loading="lazy"
               style={{
                 height: 280,
                 width: 500,
