@@ -28,142 +28,88 @@ const Conttwo = () => {
       >
         <Headings str="I CAN BUILD" />
       </div>
-      <div
-        style={{
-          width: "90%",
-          overflowX: "hidden",
-          height: "auto",
-          borderRadius: 60,
-          backgroundColor: "white",
-          padding: "90px 0",
-        }}
-      >
-        <div
-          style={{
-            display: "grid",
-            gap: 20,
-            gridTemplateColumns: "1fr 1fr",
-            placeItems: "center",
-          }}
-        >
-          <div>
+      <div className="white-back">
+        <div className="box">
+          <div className="imgcon">
             <Fadeup>
-              <img src={svg1} alt="" style={{ height: 500, width: 500 }} />
+              <img src={svg1} alt="" />
             </Fadeup>
           </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: 30,
-              height: 300,
-              marginTop: 100,
-            }}
-          >
+          <div className="con2con">
             <Fadeup>
-              <p style={{ width: 500, fontSize: "3rem" }}>WEB DEVELOPMENT</p>
+              <p className="wp1">WEB DEVELOPMENT</p>
             </Fadeup>
             <Fadeup>
-              <p style={{ width: 500, fontSize: "2rem" }}>
+              <p className="wp2">
                 An amazing website with a gorgeous landing page and a seamless
                 user experience
               </p>
             </Fadeup>
           </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: 30,
-              height: 300,
-              marginTop: 100,
-            }}
-          >
+        </div>
+        <div className="box rev">
+          <div className="con2con">
             <Fadeup>
-              <p style={{ width: 500, fontSize: "3rem" }}>MOBILE APP</p>
+              <p className="wp1">MOBILE APP</p>
             </Fadeup>
             <Fadeup>
-              <p style={{ width: 500, fontSize: "2rem" }}>
+              <p className="wp2">
                 Create an attractive mobile application with responsive design
                 and effortless navigation.
               </p>
             </Fadeup>
           </div>
-          <div>
+          <div className="imgcon">
             <Fadeup>
-              <img src={svg2} alt="" style={{ height: 500, width: 500 }} />
+              <img src={svg2} alt="" />
             </Fadeup>
           </div>
-          <div>
+        </div>
+        <div className="box">
+          <div className="imgcon">
             <Fadeup>
-              <img src={svg3} alt="" style={{ height: 500, width: 500 }} />
+              <img src={svg3} alt="" />
             </Fadeup>
           </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: 30,
-              height: 300,
-              marginTop: 100,
-            }}
-          >
+          <div className="con2con">
             <Fadeup>
-              <p style={{ width: 500, fontSize: "2.2rem" }}>
-                INCREASE YOUR BUSINESS
-              </p>
+              <p className="wp1">INCREASE YOUR BUSINESS</p>
             </Fadeup>
             <Fadeup>
-              <p style={{ width: 500, fontSize: "2rem" }}>
+              <p className="wp2">
                 Assist you in analyzing your data and clientele to help you make
                 wise decisions that will grow your company
               </p>
             </Fadeup>
           </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: 30,
-              height: 300,
-              marginTop: 100,
-            }}
-          >
+        </div>
+        <div className="box rev">
+          <div className="con2con">
             <Fadeup>
-              <p style={{ width: 500, fontSize: "3rem" }}>
-                USER-FRIENDLY EXPIRIENCE
-              </p>
+              <p className="wp1">USER-FRIENDLY EXPIRIENCE</p>
             </Fadeup>
             <Fadeup>
-              <p style={{ width: 500, fontSize: "2rem" }}>
-                Creates an experience that users enjoy
-              </p>
+              <p className="wp2">Creates an experience that users enjoy</p>
             </Fadeup>
           </div>
-          <div>
+          <div className="imgcon">
             <Fadeup>
-              <img src={svg4} alt="" style={{ height: 500, width: 500 }} />
+              <img src={svg4} alt="" />
             </Fadeup>
           </div>
-          <div>
+        </div>
+        <div className="box">
+          <div className="imgcon">
             <Fadeup>
-              <img src={svg5} alt="" style={{ height: 500, width: 500 }} />
+              <img src={svg5} alt="" />
             </Fadeup>
           </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: 30,
-              height: 300,
-              marginTop: 100,
-            }}
-          >
+          <div className="con2con">
             <Fadeup>
-              <p style={{ width: 500, fontSize: "3rem" }}>HELPS YOU RELAX</p>
+              <p className="wp1">HELPS YOU RELAX</p>
             </Fadeup>
             <Fadeup>
-              <p style={{ width: 500, fontSize: "2rem" }}>
+              <p className="wp2">
                 I would create a calm atmosphere and earn your trust, which
                 should enable you to take it easy.
               </p>

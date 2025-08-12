@@ -20,8 +20,10 @@ const Contone = () => {
           width: "100%",
           alignItems: "center",
         }}
+        className="h15"
       >
-        <Headings str="SOME OF MY PROJECTS" />
+        <Headings str="SOME OF MY" />
+        <Headings str=" PROJECTS" del={0.27} />
       </div>
       <div
         style={{ display: "flex", flexDirection: "column", gap: 30 }}
