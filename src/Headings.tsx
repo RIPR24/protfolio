@@ -3,18 +3,19 @@ import { useRef } from "react";
 
 type props = {
   str: string;
+  del?: number;
 };
 
-const Headings = (props: props) => {
+const Headings = ({ str, del }: props) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-250px" });
+  const isInView = useInView(ref, { once: true, margin: "-200px" });
 
-  const strarr: string[] = props.str.split("");
+  const strarr: string[] = str.split("");
 
   return (
     <div className="headings" ref={ref}>
       {isInView && (
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex", flexWrap: "wrap" }}>
           {strarr.map((el, i) => {
             return (
               <motion.p
@@ -24,7 +25,7 @@ const Headings = (props: props) => {
                 transition={{
                   type: "spring",
                   duration: 0.3,
-                  delay: i * 0.025,
+                  delay: i * 0.025 + (del || 0),
                 }}
                 style={{ width: el === " " ? 40 : "auto" }}
               >
