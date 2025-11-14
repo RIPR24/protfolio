@@ -1,4 +1,3 @@
-import frontmem from "../assets/mem/front-mem.jpg";
 import frontomem from "../assets/mem/front1-mem.jpg";
 import logmem from "../assets/mem/log-mem.jpg";
 import plansmem from "../assets/mem/plans-mem.jpg";
@@ -13,6 +12,7 @@ import todom from "../assets/lastline/todo-mod.jpg";
 import codtemp from "../assets/lastline/temp-codepen.jpg";
 import codchrt from "../assets/lastline/chart-codepen.jpg";
 import codcon from "../assets/lastline/contry-codepen.jpg";
+import ppt from "../assets/lastline/ppt.jpg";
 
 type imgarr = {
   url: string;
@@ -23,7 +23,7 @@ const url1: string = "https://singular-hamster-33a29c.netlify.app";
 
 export const arr1: imgarr[] = [
   {
-    url: frontmem,
+    url: infomem,
     str: url1,
   },
   {
@@ -31,8 +31,8 @@ export const arr1: imgarr[] = [
     str: url1,
   },
   {
-    url: infomem,
-    str: url1,
+    url: ppt,
+    str: "https://ppt-gen-rway.onrender.com",
   },
   {
     url: logmem,

@@ -90,7 +90,7 @@ const Contactme = () => {
                 padding: "5px 0",
               }}
             >
-              bapiyaofficial@gmail.com
+              bapiya1@gmail.com
             </p>
           </div>
         </Fadeup>
